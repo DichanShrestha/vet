@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test": "node --test"
+    "test": "node --test",
+    "db:generate": "prisma generate"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.0.0",
@@ -24,7 +25,7 @@
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/turbopack": "^4",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -33,7 +34,6 @@
     "prisma": "^7.0.0",
     "dotenv": "^17.2.2",
     "@types/pg": "^8.15.5",
-    "shadcn": "^3.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
